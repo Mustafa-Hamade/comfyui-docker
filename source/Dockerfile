@@ -3,7 +3,7 @@
 ARG COMFYUI_VERSION=v0.3.40
 ARG COMFYUI_MANAGER_VERSION=3.33
 #ARG PYTORCH_VERSION=2.7.1-cuda12.6-cudnn9-runtime
-ARG PYTORCH_VERSION=2.8.0-cuda12.6-cudnn9-runtime
+ARG PYTORCH_VERSION=2.7.0-cuda12.8-cudnn9-runtime
 
 # This image is based on the latest official PyTorch image, because it already contains CUDA, CuDNN, and PyTorch
 FROM pytorch/pytorch:${PYTORCH_VERSION}
